@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 import telebot
 
-bot = telebot.TeleBot('6306811162:AAHDK967902pWwC1iBgJBHM5f0J2oLLqxdA')
+bot = telebot.TeleBot('token_telegramm')
 vacancies = []
 def get_vacancies(currency):
     """Выгрузка данных по 'HH' по запросам пользователя и возвращается словарь"""
